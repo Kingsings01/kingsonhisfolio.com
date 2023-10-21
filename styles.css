@@ -7,6 +7,7 @@
 
 .nav-link {
   margin-left: 2rem;
+  margin-top: 10px;
 }
 
 /* Color of the links BEFORE scroll */
@@ -43,12 +44,11 @@
   align-items: center;
   text-align: center;
   border: solid 2px;
-  border-color: #d36969;
+  border-color: #d36969ce;
   border-radius: 30px;
   padding-left: 15px;
   padding-right: 13.5px;
   padding-bottom: 3px;
-  /*padding-top: 5px; */
   color: black;
-  background-color: #fff;
+  background-color: #ffffff1c;
 }

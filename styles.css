@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* color: white; */
+}
+ 
+
+.nav-link {
+  margin-left: 2rem;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.cv-btn {
+  align-items: center;
+  text-align: center;
+  border: solid 2px;
+  border-color: #d36969;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 13.5px;
+  padding-bottom: 3px;
+  /*padding-top: 5px; */
+  color: black;
+  background-color: #fff;
+}

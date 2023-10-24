@@ -39,9 +39,12 @@
 
 .navbar-brand {
   /* margin-left: 5px; */
-  padding-right: 350px;
+  padding-right: 330px;
   font-size: 1.75rem;
   letter-spacing: 3px;
+}
+.nav-item a button btn btn-outline-light{
+  margin-top: 10px;
 }
 
 .cv-btn {
@@ -68,7 +71,7 @@
 }
 .profile-container h1{
   padding-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .img-div, .content-div {
   height: 100px;
@@ -100,4 +103,17 @@
   margin-top: 30px;
   font-size: 1.75rem;
   padding-left: 20px;
+}
+
+/* Portfolio styles */
+.portfolio-div {
+  width: 80%;
+  height: 50vh;
+  padding-top: 20px;
+  background-color: red;
+  margin-left: 10%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-content: center;
+  text-align: center;
 }

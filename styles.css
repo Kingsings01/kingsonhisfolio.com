@@ -61,17 +61,18 @@
 }
 
 .profile-container {
-  margin-top: 120px;
-  max-width: 80%;
-  margin-left: 10%;
   height: 400px;
-  background-color: #d6b9a5;
+  max-width: 80%;
+  margin-top: 120px;
   margin-bottom: 60px;
+  margin-left: 10%;
   text-align: center;
+  background-color: #d6b9a5;
 }
 .profile-container h1{
-  padding-top: 30px;
+  padding-top: 50px;
   margin-bottom: 30px;
+  font-size: 37px;
 }
 .img-div, .content-div {
   height: 100px;
@@ -89,12 +90,13 @@
   background-color: rgba(0, 0, 0, 0.038);
   color: rgb(105, 104, 104);
   width: 100%;
-  height: 30vh;
+  height: 25vh;
   align-content: center;
   text-align: center;
 }
 .footer-div h5{
   padding-top: 30px;
+  font-size: 1.3rem;
 }
 .footer-div a{
   margin-top: 30px;
@@ -103,23 +105,17 @@
 }
 
 _____________________________________
-/* Reset some default margin and padding for consistency */
-body, html {
-  margin: 0;
-  padding: 0;
-}
-
 /* Style the footer */
 footer {
   margin-top: 100px;
-  background-color: #333; /* Set your desired background color */
-  color: #fff; /* Set your desired text color */
-  padding: 20px 0; /* Add padding as needed */
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
 }
 
 /* Center align the content within the footer */
 .footer-content {
-  max-width: 960px; /* Set your desired max width */
+  max-width: 960px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -151,14 +147,38 @@ _____________________________________
 
 
 /* Portfolio styles */
-.portfolio-div {
-  width: 80%;
-  height: 50vh;
-  padding-top: 20px;
-  background-color: red;
-  margin-left: 10%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+
+.portfolio-section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: black;
   align-content: center;
   text-align: center;
+}
+
+.portfolio-div {
+  width: 90%;
+  height: 400px;
+  margin-left: 5%;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.left-side {
+  /* flex: 1; */
+  width: 40%;
+  height: 400px;
+  /* background-color: #cbbcb1; */
+  background-color: #e9e7e7;
+}
+.right-side {
+  /* flex: 1; */
+  width: 60%;
+  height: 400px;
+  background-color: #d6b9a5;
 }
